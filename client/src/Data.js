@@ -1,0 +1,68 @@
+const Courses = [
+  {
+    title: "React.js for Beginners",
+    tutor: "Jane Doe",
+    desc: "Build fast and responsive websites using React.",
+    rating: 4.6,
+    duration: 35,
+    price: 1500,
+  },
+  {
+    title: "Python Programming Masterclass",
+    tutor: "Rahul Verma",
+    desc: "Learn Python from basics to automation & data science.",
+    rating: 4.6,
+    duration: 35,
+    price: 1500,
+  },
+  {
+    title: "SEO Crash Course",
+    tutor: "Nina Smith",
+    desc: "Rank your site on Google with proven SEO techniques.",
+    rating: 4.6,
+    duration: 35,
+    price: 1500,
+  },
+  {
+    title: "Introduction to Data Analytics",
+    tutor: "Alex King",
+    desc: "Use tools like Excel, Tableau, and SQL to analyze data.",
+    rating: 4.6,
+    duration: 35,
+    price: 1500,
+  },
+  {
+    title: "Prompt Engineering for ChatGPT",
+    tutor: "OpenAI Academy",
+    desc: "Learn to build better prompts for AI tools like ChatGPT.",
+    rating: 4.6,
+    duration: 35,
+    price: 1500,
+  },
+  {
+    title: "Data Structures & Algorithms in JavaScript",
+    tutor: "AlgoMasters",
+    desc: "Master core computer science concepts to ace coding interviews.",
+    rating: 4.9,
+    duration: 50,
+    price: 2500,
+  },
+  {
+    title: "Full-Stack Web Development with MERN",
+    tutor: "CodeCraft Bootcamp",
+    desc: "Become a full-stack developer using MongoDB, Express, React, and Node.",
+    rating: 4.7,
+    duration: 60,
+    price: 3000,
+  },
+  {
+    title: "UI/UX Design Fundamentals",
+    tutor: "DesignHub Institute",
+    desc: "Understand the principles of modern UI/UX design and create stunning user interfaces.",
+    rating: 4.5,
+    duration: 40,
+    price: 1800,
+  },
+];
+
+export default { Courses };

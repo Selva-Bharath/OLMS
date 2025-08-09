@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Mont;
+  src: url("./assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  background-color: #f2f4f6;
+  font-size: 12px;
+}
+
+.mont {
+  font-family: Mont;
+}
+
+.b1,
+.b2 {
+  padding: 8px 32px;
+  font-family: Mont;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.b1 {
+  background-color: white;
+  color: #f48c06;
+  border: 2px solid #f48c06;
+}
+
+.b2 {
+  background-color: #f48c06;
+  color: white;
+}
+
+.b1:hover {
+  background-color: #fbeedc;
+}
+
+.b2:hover {
+  background-color: #fea735;
+}
+
+a {
+  padding: 4px 16px;
+}
+
+a:hover {
+  background-color: white;
+  transition: 0.2s;
+  border: 1px solid #00214d;
+  border-radius: 8px;
+}
+
+button a:hover,
+.exc a:hover {
+  background-color: transparent;
+  transition: none;
+  border: none;
+  border-radius: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.exc input:focus,
+.exc textarea:focus {
+  outline: none;
+  border: 2px solid #00214d;
+}
+
+textarea {
+  resize: none;
+}
+
+h1,
+h2 {
+  font-family: Mont;
+}
+
+h1 {
+  color: #00214d;
+  font-size: 20px;
+  line-height: 1.33;
+}
+
+h3 {
+  color: #1b2d45;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer a:hover {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
